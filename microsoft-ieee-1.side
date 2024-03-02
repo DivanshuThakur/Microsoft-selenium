@@ -1,0 +1,139 @@
+{
+  "id": "71c4884e-e86b-421c-941e-a08715e3e335",
+  "version": "2.0",
+  "name": "microsoft-ieee-1",
+  "url": "https://ieeexplore.ieee.org",
+  "tests": [{
+    "id": "dfc34f03-274b-4541-8c08-09bbf1d6a702",
+    "name": "test2",
+    "commands": [{
+      "id": "dfd64051-e907-48ed-a9c0-21b80c2f82c5",
+      "comment": "",
+      "command": "open",
+      "target": "/Xplore/home.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "738c1515-a573-462a-b839-4cb1c347380a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1056x812",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1c3da2e0-027c-46f3-8e6d-77cffa601c31",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Typeahead-input",
+      "targets": [
+        ["css=.Typeahead-input", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//div[@id='LayoutWrapper']/div/div/div[3]/div/xpl-root/header/xpl-header/div/div[2]/div[2]/xpl-search-bar-migr/div/form/div[2]/div/div/xpl-typeahead-migr/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "814aec43-5c90-4476-a76c-1559cf195369",
+      "comment": "",
+      "command": "type",
+      "target": "css=.Typeahead-input",
+      "targets": [
+        ["css=.Typeahead-input", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//div[@id='LayoutWrapper']/div/div/div[3]/div/xpl-root/header/xpl-header/div/div[2]/div[2]/xpl-search-bar-migr/div/form/div[2]/div/div/xpl-typeahead-migr/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "crypto"
+    }, {
+      "id": "25cb5c90-03c4-4206-b942-cacf49bf57cd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-search",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fc40c82c-ed23-4c32-9016-22ecd3765989",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Open Access Only",
+      "targets": [
+        ["linkText=Open Access Only", "linkText"],
+        ["css=.d-flex:nth-child(2) .filter-box-content-option", "css:finder"],
+        ["xpath=//div[@id='xplMainContent']/div[2]/div/div/xpl-filter-box/div/div/div/div[2]/label/a", "xpath:idRelative"],
+        ["xpath=//div[2]/label/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Open Access Only')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e67d0a3-6cff-4ab3-a46e-201807041d2c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,200)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2448368a-6d01-4224-a32f-fc89bdabca9a",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='xplMainContent']/div[2]/div[2]/xpl-results-list/div[2]/xpl-select-dropdown/div/button",
+      "targets": [
+        ["id=dropdownLabel-1709356203379-4", "id"],
+        ["css=#dropdownLabel-1709356203379-4", "css:finder"],
+        ["xpath=//button[@id='dropdownLabel-1709356203379-4']", "xpath:attributes"],
+        ["xpath=//div[@id='xplMainContent']/div[2]/div[2]/xpl-results-list/div[2]/xpl-select-dropdown/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/xpl-select-dropdown/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "771541e6-a85a-4632-b854-51176604bc9d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.show > .dropdown-item:nth-child(2)",
+      "targets": [
+        ["css=.show > .dropdown-item:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='xplMainContent']/div[2]/div[2]/xpl-results-list/div[2]/xpl-select-dropdown/div/div/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/xpl-select-dropdown/div/div/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5fec61d3-0de9-4dfe-8080-f8e28b8a599d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,214.39999389648438)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8ecef8b8-72e7-4409-98ca-9539379f3d53",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.stats_PDF_10453547 > .icon-size-md",
+      "targets": [
+        ["css=.stats_PDF_10453547 > .icon-size-md", "css:finder"],
+        ["xpath=//div[@id='10453547']/xpl-results-item/div/div[2]/ul/li[2]/xpl-view-pdf/div/div/a/i", "xpath:idRelative"],
+        ["xpath=//xpl-view-pdf/div/div/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7552a606-4322-4ae0-aa88-a4e37497f484",
+      "comment": "",
+      "command": "click",
+      "target": "css=.stats_PDF_10453547 > .icon-size-md",
+      "targets": [
+        ["css=.stats_PDF_10453547 > .icon-size-md", "css:finder"],
+        ["xpath=//div[@id='10453547']/xpl-results-item/div/div[2]/ul/li[2]/xpl-view-pdf/div/div/a/i", "xpath:idRelative"],
+        ["xpath=//xpl-view-pdf/div/div/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c8692252-98db-422a-94a6-ba6abacad1a4",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["dfc34f03-274b-4541-8c08-09bbf1d6a702"]
+  }],
+  "urls": ["https://ieeexplore.ieee.org/"],
+  "plugins": []
+}
